@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monitor de Calidad del Aire</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Monitor de Calidad del Aire</h1>
+            <p class="subtitle">Entendiendo los parámetros ambientales y sus efectos en la salud</p>
+        </div>
+    </header>
+    
+    <div class="container">
+        <section class="intro">
+            <h2>¿Por qué es importante monitorear la calidad del aire?</h2>
+            <p>La calidad del aire que respiramos afecta directamente nuestra salud y bienestar. Monitorear diferentes parámetros nos permite tomar decisiones informadas para protegernos de posibles riesgos para la salud.</p>
+            <p>A continuación, explicamos cada parámetro, sus riesgos asociados y las medidas preventivas que puede tomar.</p>
+        </section>
+        
+        <!-- CO (Monóxido de Carbono) -->
+        <section class="parameter-card">
+            <div class="parameter-header">
+                <div class="parameter-icon">CO</div>
+                <h2 class="parameter-title">Monóxido de Carbono (CO)</h2>
+            </div>
+            
+            <div class="parameter-content">
+                <div class="info-section">
+                    <h3>¿Qué es?</h3>
+                    <p>El monóxido de carbono es un gas incoloro e inodoro que se produce por la combustión incompleta de combustibles fósiles.</p>
+                    
+                    <h3>Riesgos para la salud</h3>
+                    <p>El CO impide que la sangre transporte oxígeno eficientemente a los órganos y tejidos del cuerpo.</p>
+                    
+                    <div class="risk-level">
+                        <div class="risk-item risk-low">Bajo: 0-9 ppm</div>
+                        <div class="risk-item risk-moderate">Moderado: 10-35 ppm</div>
+                        <div class="risk-item risk-high">Alto: >35 ppm</div>
+                    </div>
+                    
+                    <p>La exposición a niveles altos puede causar:</p>
+                    <ul>
+                        <li>Dolores de cabeza</li>
+                        <li>Mareos</li>
+                        <li>Náuseas</li>
+                        <li>Confusión</li>
+                        <li>En casos extremos, pérdida de conciencia y muerte</li>
+                    </ul>
+                </div>
+                
+                <div class="info-section">
+                    <h3>Medidas preventivas</h3>
+                    <div class="precautions">
+                        <ul>
+                            <li>Instalar detectores de CO en el hogar</li>
+                            <li>Asegurar una ventilación adecuada</li>
+                            <li>Mantener en buen estado los sistemas de calefacción y aparatos de combustión</li>
+                            <li>No encender motores de combustión en espacios cerrados</li>
+                            <li>Buscar atención médica inmediata si se sospecha intoxicación por CO</li>
+                        </ul>
+                    </div>
+                    
+                    <h3>Gráfica de monitoreo</h3>
+                    <div class="iframe-container">
+                        <iframe src="https://stem.ubidots.com/app/dashboards/public/widget/jeKuOIMNsO2On_PxCCPyHx1G7i6Prqehx1ChljswZwY?embed=true"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- O3 (Ozono) -->
+        <section class="parameter-card">
+            <div class="parameter-header">
+                <div class="parameter-icon">O3</div>
+                <h2 class="parameter-title">Ozono (O3)</h2>
+            </div>
+            
+            <div class="parameter-content">
+                <div class="info-section">
+                    <h3>¿Qué es?</h3>
+                    <p>El ozono a nivel del suelo es un contaminante formado por reacciones químicas entre óxidos de nitrógeno y compuestos orgánicos volátiles en presencia de luz solar.</p>
+                    
+                    <h3>Riesgos para la salud</h3>
+                    <p>El ozono puede irritar el sistema respiratorio y agravar condiciones como el asma.</p>
+                    
+                    <div class="risk-level">
+                        <div class="risk-item risk-low">Bajo: 0-50 ppb</div>
+                        <div class="risk-item risk-moderate">Moderado: 51-100 ppb</div>
+                        <div class="risk-item risk-high">Alto: >100 ppb</div>
+                    </div>
+                    
+                    <p>La exposición puede causar:</p>
+                    <ul>
+                        <li>Irritación en garganta y pulmones</li>
+                        <li>Tos y dolor al respirar profundamente</li>
+                        <li>Reducción de la función pulmonar</li>
+                        <li>Inflamación de las vías respiratorias</li>
+                        <li>Empeoramiento de enfermedades respiratorias</li>
+                    </ul>
+                </div>
+                
+                <div class="info-section">
+                    <h3>Medidas preventivas</h3>
+                    <div class="precautions">
+                        <ul>
+                            <li>Limitar actividades al aire libre durante horas pico de ozono (generalmente en las tardes calurosas)</li>
+                            <li>Realizar actividades físicas intensas temprano en la mañana o en interiores</li>
+                            <li>Mantenerse informado sobre los niveles de ozono locales</li>
+                            <li>Usar purificadores de aire en interiores</li>
+                            <li>Las personas con asma o problemas respiratorios deben tener especial cuidado</li>
+                        </ul>
+                    </div>
+                    
+                    <h3>Gráfica de monitoreo</h3>
+                    <div class="iframe-container">
+                        <iframe src="https://stem.ubidots.com/app/dashboards/public/widget/Xi2G1vInx_ORI72VIsGs3Rzvkk1K_J4htIMxvrvSaZM?embed=true"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Humedad -->
+        <section class="parameter-card">
+            <div class="parameter-header">
+                <div class="parameter-icon">H</div>
+                <h2 class="parameter-title">Humedad</h2>
+            </div>
+            
+            <div class="parameter-content">
+                <div class="info-section">
+                    <h3>¿Qué es?</h3>
+                    <p>La humedad es la cantidad de vapor de agua presente en el aire. Se mide como humedad relativa, que es el porcentaje de vapor de agua en el aire en relación con la cantidad máxima que podría contener a esa temperatura.</p>
+                    
+                    <h3>Efectos en la salud</h3>
+                    <p>Tanto la humedad muy alta como muy baja pueden afectar la salud y el confort.</p>
+                    
+                    <div class="risk-level">
+                        <div class="risk-item risk-low">Óptima: 40-60%</div>
+                        <div class="risk-item risk-moderate">Atención: 30-40% o 60-70%</div>
+                        <div class="risk-item risk-high">Problemática: <30% o >70%</div>
+                    </div>
+                    
+                    <p>Los problemas asociados incluyen:</p>
+                    <ul>
+                        <li><strong>Humedad alta:</strong> Favorece el crecimiento de moho y ácaros, agrava alergias y asma</li>
+                        <li><strong>Humedad baja:</strong> Reseca piel y mucosas, irrita vías respiratorias, aumenta susceptibilidad a infecciones</li>
+                    </ul>
+                </div>
+                
+                <div class="info-section">
+                    <h3>Medidas preventivas</h3>
+                    <div class="precautions">
+                        <ul>
+                            <li><strong>Para humedad alta:</strong> Usar deshumidificadores, mejorar ventilación, reparar fugas de agua</li>
+                            <li><strong>Para humedad baja:</strong> Usar humidificadores, mantener plantas de interior, no sobrecalentar ambientes</li>
+                            <li>Mantener la humedad entre 40-60% para un ambiente interior saludable</li>
+                            <li>Ventilar baños y cocinas para reducir la humedad</li>
+                            <li>Limpiar regularmente para prevenir moho en ambientes húmedos</li>
+                        </ul>
+                    </div>
+                    
+                    <h3>Gráfica de monitoreo</h3>
+                    <div class="iframe-container">
+                        <iframe src="https://stem.ubidots.com/app/dashboards/public/widget/ezwmvrAgHKdXJTLSi_f43h8pRQHuezhownaLPXbHewM?embed=true"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Temperatura -->
+        <section class="parameter-card">
+            <div class="parameter-header">
+                <div class="parameter-icon">T</div>
+                <h2 class="parameter-title">Temperatura</h2>
+            </div>
+            
+            <div class="parameter-content">
+                <div class="info-section">
+                    <h3>¿Qué es?</h3>
+                    <p>La temperatura es una medida del calor o frío en el ambiente. Afecta directamente nuestro confort y puede tener impactos significativos en la salud.</p>
+                    
+                    <h3>Efectos en la salud</h3>
+                    <p>Las temperaturas extremas pueden causar diversos problemas de salud.</p>
+                    
+                    <div class="risk-level">
+                        <div class="risk-item risk-low">Confort: 18-24°C</div>
+                        <div class="risk-item risk-moderate">Precaución: 10-18°C o 24-30°C</div>
+                        <div class="risk-item risk-high">Riesgo: <10°C o >30°C</div>
+                    </div>
+                    
+                    <p>Los riesgos incluyen:</p>
+                    <ul>
+                        <li><strong>Calor extremo:</strong> Deshidratación, agotamiento por calor, golpe de calor</li>
+                        <li><strong>Frío extremo:</strong> Hipotermia, congelación, mayor riesgo de enfermedades respiratorias</li>
+                        <li>Las temperaturas extremas afectan especialmente a niños, ancianos y personas con condiciones médicas preexistentes</li>
+                    </ul>
+                </div>
+                
+                <div class="info-section">
+                    <h3>Medidas preventivas</h3>
+                    <div class="precautions">
+                        <ul>
+                            <li><strong>En calor:</strong> Mantenerse hidratado, buscar lugares frescos, usar ropa ligera, limitar actividad física en horas pico</li>
+                            <li><strong>En frío:</strong> Vestirse en capas, mantener la casa calefaccionada adecuadamente, evitar exposición prolongada</li>
+                            <li>Prestar especial atención a grupos vulnerables</li>
+                            <li>Mantener una temperatura interior confortable (18-24°C)</li>
+                            <li>Consultar pronósticos meteorológicos para prepararse adecuadamente</li>
+                        </ul>
+                    </div>
+                    
+                    <h3>Gráfica de monitoreo</h3>
+                    <div class="iframe-container">
+                        <iframe src="https://stem.ubidots.com/app/dashboards/public/widget/99j7ysAj5Y2e-XJNIGYJhtYVuDwshjqecOzN7i9RQV4?embed=true"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- CO2 (Dióxido de Carbono) -->
+        <section class="parameter-card">
+            <div class="parameter-header">
+                <div class="parameter-icon">CO2</div>
+                <h2 class="parameter-title">Dióxido de Carbono (CO2)</h2>
+            </div>
+            
+            <div class="parameter-content">
+                <div class="info-section">
+                    <h3>¿Qué es?</h3>
+                    <p>El dióxido de carbono es un gas incoloro e inodoro que se produce naturalmente en la respiración y por la quema de combustibles fósiles.</p>
+                    
+                    <h3>Riesgos para la salud</h3>
+                    <p>Aunque no es tóxico en concentraciones bajas, niveles elevados pueden afectar el bienestar y la función cognitiva.</p>
+                    
+                    <div class="risk-level">
+                        <div class="risk-item risk-low">Bueno: <1000 ppm</div>
+                        <div class="risk-item risk-moderate">Moderado: 1000-2000 ppm</div>
+                        <div class="risk-item risk-high">Deficiente: >2000 ppm</div>
+                    </div>
+                    
+                    <p>Los efectos incluyen:</p>
+                    <ul>
+                        <li>Somnolencia y fatiga</li>
+                        <li>Dolor de cabeza</li>
+                        <li>Disminución de la capacidad de concentración</li>
+                        <li>Reducción del rendimiento cognitivo</li>
+                        <li>Sensación de aire viciado</li>
+                    </ul>
+                </div>
+                
+                <div class="info-section">
+                    <h3>Medidas preventivas</h3>
+                    <div class="precautions">
+                        <ul>
+                            <li>Ventilar regularmente los espacios cerrados</li>
+                            <li>Instalar sistemas de ventilación mecánica en edificios herméticos</li>
+                            <li>Reducir el número de personas en espacios pequeños y mal ventilados</li>
+                            <li>Usar plantas de interior que ayudan a reducir el CO2</li>
+                            <li>Considerar monitores de CO2 para espacios muy concurridos</li>
+                        </ul>
+                    </div>
+                    
+                    <h3>Gráfica de monitoreo</h3>
+                    <div class="iframe-container">
+                        <iframe src="https://stem.ubidots.com/app/dashboards/public/widget/8-qEg5hlKd_9JLORyjD6sB0w2KjnKvpEVs3ilUmhtWo?embed=true"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- NH3 (Amoníaco) -->
+        <section class="parameter-card">
+            <div class="parameter-header">
+                <div class="parameter-icon">NH3</div>
+                <h2 class="parameter-title">Amoníaco Anhidro (NH3)</h2>
+            </div>
+            
+            <div class="parameter-content">
+                <div class="info-section">
+                    <h3>¿Qué es?</h3>
+                    <p>El amoníaco es un gas incoloro con un olor penetrante. Se utiliza en fertilizantes, productos de limpieza y procesos industriales.</p>
+                    
+                    <h3>Riesgos para la salud</h3>
+                    <p>El amoníaco es irritante para las vías respiratorias, ojos y piel.</p>
+                    
+                    <div class="risk-level">
+                        <div class="risk-item risk-low">Bajo: <25 ppm</div>
+                        <div class="risk-item risk-moderate">Moderado: 25-50 ppm</div>
+                        <div class="risk-item risk-high">Alto: >50 ppm</div>
+                    </div>
+                    
+                    <p>La exposición puede causar:</p>
+                    <ul>
+                        <li>Irritación de ojos, nariz y garganta</li>
+                        <li>Tos y dificultad para respirar</li>
+                        <li>Quemaduras en piel y ojos</li>
+                        <li>Daño pulmonar en exposiciones severas</li>
+                        <li>Asfixia en concentraciones muy altas</li>
+                    </ul>
+                </div>
+                
+                <div class="info-section">
+                    <h3>Medidas preventivas</h3>
+                    <div class="precautions">
+                        <ul>
+                            <li>Asegurar buena ventilación al usar productos con amoníaco</li>
+                            <li>No mezclar productos de limpieza con amoníaco y cloro</li>
+                            <li>Usar equipo de protección personal cuando sea necesario</li>
+                            <li>Almacenar productos con amoníaco en lugares seguros y ventilados</li>
+                            <li>En caso de exposición, lavar inmediatamente con agua abundante y buscar atención médica</li>
+                        </ul>
+                    </div>
+                    
+                    <h3>Gráfica de monitoreo</h3>
+                    <div class="iframe-container">
+                        <iframe src="https://stem.ubidots.com/app/dashboards/public/widget/19s39JxfltPH6-Jeqn2gyz9vCMRgSIJ_jspFpmdEfcI?embed=true"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- NOx (Óxidos de Nitrógeno) -->
+        <section class="parameter-card">
+            <div class="parameter-header">
+                <div class="parameter-icon">NOx</div>
+                <h2 class="parameter-title">Óxidos de Nitrógeno (NOx)</h2>
+            </div>
+            
+            <div class="parameter-content">
+                <div class="info-section">
+                    <h3>¿Qué es?</h3>
+                    <p>Los óxidos de nitrógeno son un grupo de gases compuestos de nitrógeno y oxígeno. Se producen principalmente por la combustión a altas temperaturas, como en vehículos y plantas de energía.</p>
+                    
+                    <h3>Riesgos para la salud</h3>
+                    <p>Los NOx son irritantes respiratorios y contribuyen a la formación de smog y lluvia ácida.</p>
+                    
+                    <div class="risk-level">
+                        <div class="risk-item risk-low">Bajo: <100 ppb</div>
+                        <div class="risk-item risk-moderate">Moderado: 100-300 ppb</div>
+                        <div class="risk-item risk-high">Alto: >300 ppb</div>
+                    </div>
+                    
+                    <p>Los efectos incluyen:</p>
+                    <ul>
+                        <li>Irritación de vías respiratorias</li>
+                        <li>Empeoramiento de asma y bronquitis</li>
+                        <li>Aumento de susceptibilidad a infecciones respiratorias</li>
+                        <li>Reducción de la función pulmonar</li>
+                        <li>Contribución a enfermedades cardiopulmonares a largo plazo</li>
+                    </ul>
+                </div>
+                
+                <div class="info-section">
+                    <h3>Medidas preventivas</h3>
+                    <div class="precautions">
+                        <ul>
+                            <li>Limitar la exposición en días con alta contaminación</li>
+                            <li>Evitar ejercicio intenso cerca de vías con mucho tráfico</li>
+                            <li>Usar purificadores de aire en interiores</li>
+                            <li>Mantener ventanas cerradas durante horas pico de tráfico</li>
+                            <li>Las personas con asma o EPOC deben tener especial cuidado</li>
+                        </ul>
+                    </div>
+                    
+                    <h3>Gráfica de monitoreo</h3>
+                    <div class="iframe-container">
+                        <iframe src="https://stem.ubidots.com/app/dashboards/public/widget/LVW6BFJcok5m8vYvMYHbupVWvdpYxNBR1SPsV103RAI?embed=true"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- PM2.5 -->
+        <section class="parameter-card">
+            <div class="parameter-header">
+                <div class="parameter-icon">PM2.5</div>
+                <h2 class="parameter-title">Partículas Finas (PM2.5)</h2>
+            </div>
+            
+            <div class="parameter-content">
+                <div class="info-section">
+                    <h3>¿Qué es?</h3>
+                    <p>Las PM2.5 son partículas en suspensión con un diámetro menor o igual a 2.5 micrómetros. Son tan pequeñas que pueden penetrar profundamente en los pulmones e incluso entrar al torrente sanguíneo.</p>
+                    
+                    <h3>Riesgos para la salud</h3>
+                    <p>Las PM2.5 son consideradas uno de los contaminantes más peligrosos para la salud humana.</p>
+                    
+                    <div class="risk-level">
+                        <div class="risk-item risk-low">Bueno: 0-12 µg/m³</div>
+                        <div class="risk-item risk-moderate">Moderado: 12.1-35.4 µg/m³</div>
+                        <div class="risk-item risk-high">Insalubre: >35.5 µg/m³</div>
+                    </div>
+                    
+                    <p>Los efectos incluyen:</p>
+                    <ul>
+                        <li>Irritación de vías respiratorias</li>
+                        <li>Agravamiento de asma y otras enfermedades respiratorias</li>
+                        <li>Disminución de la función pulmonar</li>
+                        <li>Aumento del riesgo de enfermedades cardiovasculares</li>
+                        <li>Asociación con cáncer de pulmón a largo plazo</li>
+                    </ul>
+                </div>
+                
+                <div class="info-section">
+                    <h3>Medidas preventivas</h3>
+                    <div class="precautions">
+                        <ul>
+                            <li>Usar mascarillas N95 o similares en días de alta contaminación</li>
+                            <li>Instalar purificadores de aire con filtros HEPA en interiores</li>
+                            <li>Evitar actividades al aire libre cuando los niveles son altos</li>
+                            <li>Mantener ventanas cerradas durante episodios de contaminación</li>
+                            <li>Grupos sensibles (niños, ancianos, personas con enfermedades respiratorias) deben tomar precauciones adicionales</li>
+                        </ul>
+                    </div>
+                    
+                    <h3>Gráfica de monitoreo</h3>
+                    <div class="iframe-container">
+                        <iframe src="https://stem.ubidots.com/app/dashboards/public/widget/BplAqtzpNjXznpZO3snAnfR-Snkd8bfnO48Nv5rHjPw?embed=true"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- PM10 -->
+        <section class="parameter-card">
+            <div class="parameter-header">
+                <div class="parameter-icon">PM10</div>
+                <h2 class="parameter-title">Material Particulado Inhalable (PM10)</h2>
+            </div>
+            
+            <div class="parameter-content">
+                <div class="info-section">
+                    <h3>¿Qué es?</h3>
+                    <p>Las PM10 son partículas en suspensión con un diámetro menor o igual a 10 micrómetros. Incluyen polvo, polen, moho y algunas partículas de combustión.</p>
+                    
+                    <h3>Riesgos para la salud</h3>
+                    
+                    <p>Las PM10 pueden causar problemas respiratorios, aunque no penetran tan profundamente en los pulmones como las PM2.5.</p>
+                    
+                    <div class="risk-level">
+                        <div class="risk-item risk-low">Bueno: 0-54 µg/m³</div>
+                        <div class="risk-item risk-moderate">Moderado: 55-154 µg/m³</div>
+                        <div class="risk-item risk-high">Insalubre: >155 µg/m³</div>
+                    </div>
+                    
+                    <p>Los efectos incluyen:</p>
+                    <ul>
+                        <li>Irritación de nariz, garganta y ojos</li>
+                        <li>Tos y estornudos</li>
+                        <li>Agravamiento de asma y alergias</li>
+                        <li>Bronquitis</li>
+                        <li>Reducción de la función pulmonar</li>
+                    </ul>
+                </div>
+                
+                <div class="info-section">
+                    <h3>Medidas preventivas</h3>
+                    <div class="precautions">
+                        <ul>
+                            <li>Usar mascarillas en ambientes polvorientos o con alta contaminación</li>
+                            <li>Reducir actividades al aire libre durante días con altos niveles</li>
+                            <li>Mantener limpios los filtros de aire acondicionado</li>
+                            <li>Limpiar regularmente el polvo en interiores</li>
+                            <li>Considerar purificadores de aire para el hogar</li>
+                        </ul>
+                    </div>
+                    
+                    <h3>Gráfica de monitoreo</h3>
+                    <div class="iframe-container">
+                        <iframe src="https://stem.ubidots.com/app/dashboards/public/widget/Sgur6Y7VTBZ3T7-EMPrXVeS-YQp37Qlrm3Wugz-Vft0?embed=true"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- PM1.0 -->
+        <section class="parameter-card">
+            <div class="parameter-header">
+                <div class="parameter-icon">PM1</div>
+                <h2 class="parameter-title">Partículas Ultrafinas (PM1.0)</h2>
+            </div>
+            
+            <div class="parameter-content">
+                <div class="info-section">
+                    <h3>¿Qué es?</h3>
+                    <p>Las PM1.0 son partículas extremadamente pequeñas con un diámetro menor o igual a 1 micrómetro. Son principalmente generadas por procesos de combustión y pueden contener compuestos tóxicos.</p>
+                    
+                    <h3>Riesgos para la salud</h3>
+                    <p>Debido a su tamaño extremadamente pequeño, las PM1.0 pueden penetrar profundamente en el sistema respiratorio y pasar al torrente sanguíneo con facilidad.</p>
+                    
+                    <div class="risk-level">
+                        <div class="risk-item risk-low">Bajo: <10 µg/m³</div>
+                        <div class="risk-item risk-moderate">Moderado: 10-20 µg/m³</div>
+                        <div class="risk-item risk-high">Alto: >20 µg/m³</div>
+                    </div>
+                    
+                    <p>Los efectos incluyen:</p>
+                    <ul>
+                        <li>Mayor penetración en el sistema respiratorio</li>
+                        <li>Potencial para causar inflamación sistémica</li>
+                        <li>Posible daño a órganos más allá de los pulmones</li>
+                        <li>Asociación con enfermedades cardiovasculares</li>
+                        <li>Posibles efectos neurológicos a largo plazo</li>
+                    </ul>
+                </div>
+                
+                <div class="info-section">
+                    <h3>Medidas preventivas</h3>
+                    <div class="precautions">
+                        <ul>
+                            <li>Usar purificadores de aire con filtros HEPA de alta eficiencia</li>
+                            <li>Evitar la exposición a humo de tabaco y otras fuentes de combustión</li>
+                            <li>Usar mascarillas de alta filtración (N95 o superior) en ambientes contaminados</li>
+                            <li>Mantener buena ventilación en interiores</li>
+                            <li>Personas con condiciones cardíacas o respiratorias deben tener especial cuidado</li>
+                        </ul>
+                    </div>
+                    
+                    <h3>Gráfica de monitoreo</h3>
+                    <div class="iframe-container">
+                        <iframe src="https://stem.ubidots.com/app/dashboards/public/widget/nZtlhnXIs3gv0v15WvHwqFRsxFdh3eNryL20b7CQn2s?embed=true"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="intro">
+            <h2>Recomendaciones generales</h2>
+            <p>Para proteger su salud de la contaminación del aire, considere estas medidas:</p>
+            <ul>
+                <li>Manténgase informado sobre la calidad del aire en su área</li>
+                <li>Limite la exposición en días con alta contaminación</li>
+                <li>Use purificadores de aire en interiores</li>
+                <li>Considere el uso de mascarillas apropiadas cuando sea necesario</li>
+                <li>Preste especial atención a los grupos vulnerables (niños, ancianos, personas con enfermedades respiratorias)</li>
+                <li>Contribuya a reducir la contaminación mediante el uso de transporte público, compartir vehículos o usar bicicleta</li>
+            </ul>
+        </section>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <p>Monitor de Calidad del Aire - Información educativa sobre parámetros ambientales y salud</p>
+            <p>© 2023 - Todos los derechos reservados</p>
+        </div>
+    </footer>
+</body>
+</html>
